@@ -1,0 +1,2143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive Periodic Table</title>
+<!--::::::::::::::::::::::::::::::::::::
+	   author: Douglas McNellis
+     date: 6-17-2016
+     project: Adv. Web with Spiller
+  ** notes:  I spent a while making it "pretty" cuz flex boxes are not as chill as the name implies. I became upset with them.
+:::::::::::::::::::::::::::::::::::::-->
+
+<link rel="stylesheet" href="spectre.css"/>
+</head>
+
+<body>
+
+
+<!-- class.group#:::::::::
+ 1		Nonmetals
+ 2		Alkali Metals
+ 3		Alkaline Earth
+ 4		Noble Gasses
+ 5		Metalloids
+ 6		Halogens
+ 7		Transition Metals
+ 8		Post-Transition Metals / Basic Metals
+ 9		Lanthanoids
+ 10	 	Actinoids
+:::::::::::::::::::::::::: -->
+
+<div class="key"><!-- unecessary <p>'s -->
+  <p><div class="group1">Nonmetals</div></p>
+  <p><div class="group2">Alkali Metals</div></p>
+  <p><div class="group3">Alkaline Earth</div></p>
+  <p><div class="group4">Noble Gasses</div></p>
+  <p><div class="group5">Metalloids</div></p>
+  <p><div class="group6">Halogens</div></p>
+  <p><div class="group7">Transition Metals</div></p>
+  <p><div class="group8">Post-Transition Metals</div></p>
+  <p><div class="group9">Lanthanoids</div></p>
+  <p><div class="group10">Actinoids</div></p>
+
+
+  <!-- <div class="title">Periodic Table of the Elements</div> -->
+
+</div>
+
+
+
+
+<div class="title">Periodic Table of the Elements</div>
+
+
+
+
+<div id="parent">
+<!-- ~~~~~~~~~ row 1 ~~~~~~~~~ -->
+  <div class="group1">
+  	<div class="atomnum">1</div>
+  	<div class="symbol">H</div>
+    <div class="name">Hydrogen</div>
+    <div class="mass">1.0079</div>
+    <div class="density">0.09 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: -259<sup>o</sup>C</div>
+    <div class="bp">B.P.: -253<sup>o</sup>C</div>
+    <div class="ol"></div>
+  </div>
+
+  <!--gap1 = 16 spaces-->
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+      <div class="group0 g1"><div class="blank">-</div></div>
+
+  <div class="group4">
+  	<div class="atomnum">2</div>
+    <div class="symbol">He</div>
+    <div class="name">Helium</div>
+    <div class="mass">4.0026</div>
+    <div class="density">0.18 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: -272<sup>o</sup>C</div>
+    <div class="bp">B.P.: -269<sup>o</sup>C</div>
+    <div class="ol"></div>
+  </div>
+
+
+  <!-- ~~~~~~~~~~~~~ ROW 2 ~~~~~~~~~~~~~~ -->
+
+
+<div class="group2">
+<div class="atomnum">3</div>
+<div class="symbol">Li</div>
+<div class="name">Lithium</div>
+<div class="mass">6.941</div>
+<div class="density">0.53 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 180<sup>o</sup>C</div>
+<div class="bp">B.P.: 1347<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group3">
+<div class="atomnum">4</div>
+<div class="symbol">Be</div>
+<div class="name">Beryllium</div>
+<div class="mass">9.0122</div>
+<div class="density">1.85 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1278<sup>o</sup>C</div>
+<div class="bp">B.P.: 2970<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<!--gap2 = 10 spaces-->
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+<div class="group0 g2"><div class="blank">-</div></div>
+
+
+<div class="group5">
+<div class="atomnum">5</div>
+<div class="symbol">B</div>
+<div class="name">Boron</div>
+<div class="mass">10.811</div>
+<div class="density">2.34 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 2300<sup>o</sup>C</div>
+<div class="bp">B.P.: 2550<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group1">
+<div class="atomnum">6</div>
+<div class="symbol">C</div>
+<div class="name">Carbon</div>
+<div class="mass">12.0107</div>
+<div class="density">2.26 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 3500<sup>o</sup>C</div>
+<div class="bp">B.P.: 4827<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group1">
+<div class="atomnum">7</div>
+<div class="symbol">N</div>
+<div class="name">Nitrogen</div>
+<div class="mass">14.0067</div>
+<div class="density"> g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -210<sup>o</sup>C</div>
+<div class="bp">B.P.: -196<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group1">
+<div class="atomnum">8</div>
+<div class="symbol">O</div>
+<div class="name">Oxygen</div>
+<div class="mass">15.9994</div>
+<div class="density">1.43 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -218<sup>o</sup>C</div>
+<div class="bp">B.P.: -183<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group6">
+<div class="atomnum">9</div>
+<div class="symbol">F</div>
+<div class="name">Fluorine</div>
+<div class="mass">18.9984</div>
+<div class="density">1.7 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -220<sup>o</sup>C</div>
+<div class="bp">B.P.: -188<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group4">
+<div class="atomnum">10</div>
+<div class="symbol">Ne</div>
+<div class="name">Neon</div>
+<div class="mass">20.1797</div>
+<div class="density">0.9 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -249<sup>o</sup>C</div>
+<div class="bp">B.P.: -246<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+
+<!-- ~~~~~~~~~~~~~ ROW 3 ~~~~~~~~~~~~~~ -->
+<div class="group2">
+<div class="atomnum">11</div>
+<div class="symbol">Na</div>
+<div class="name">Sodium</div>
+<div class="mass">22.9897</div>
+<div class="density">0.97 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 98<sup>o</sup>C</div>
+<div class="bp">B.P.: 883<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group3">
+<div class="atomnum">12</div>
+<div class="symbol">Mg</div>
+<div class="name">Magnesium</div>
+<div class="mass">24.305</div>
+<div class="density">1.74 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 639<sup>o</sup>C</div>
+<div class="bp">B.P.: 1090<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<!--gap3 = 10 spaces-->
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+        <div class="group0 g3"><div class="blank">-</div></div>
+
+
+<div class="group8">
+    <div class="atomnum">13</div>
+    <div class="symbol">Al</div>
+    <div class="name">Aluminum</div>
+    <div class="mass">26.9815</div>
+    <div class="density">2.7 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 660<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2467<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group5">
+    <div class="atomnum">14</div>
+    <div class="symbol">Si</div>
+    <div class="name">Silicon</div>
+    <div class="mass">28.0855</div>
+    <div class="density">2.33 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1410<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2355<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group1">
+    <div class="atomnum">15</div>
+    <div class="symbol">P</div>
+    <div class="name">Phosphorus</div>
+    <div class="mass">30.9738</div>
+    <div class="density">1.82 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 44<sup>o</sup>C</div>
+    <div class="bp">B.P.: 280<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group1">
+    <div class="atomnum">16</div>
+    <div class="symbol">S</div>
+    <div class="name">Sulfur</div>
+    <div class="mass">32.065</div>
+    <div class="density">2.07 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 113<sup>o</sup>C</div>
+    <div class="bp">B.P.: 445<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group6">
+    <div class="atomnum">17</div>
+    <div class="symbol">Cl</div>
+    <div class="name">Chlorine</div>
+    <div class="mass">35.453</div>
+    <div class="density">3.21 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: -101<sup>o</sup>C</div>
+    <div class="bp">B.P.: -35<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group4">
+    <div class="atomnum">18</div>
+    <div class="symbol">Ar</div>
+    <div class="name">Argon</div>
+    <div class="mass">39.948</div>
+    <div class="density">1.78 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: -189<sup>o</sup>C</div>
+    <div class="bp">B.P.: -186<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~ ROW 4 ~~~~~~~~~~~~~~ -->
+<div class="group2">
+    <div class="atomnum">19</div>
+    <div class="symbol">K</div>
+    <div class="name">Potassium</div>
+    <div class="mass">39.0983</div>
+    <div class="density">0.86 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 64<sup>o</sup>C</div>
+    <div class="bp">B.P.: 774<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group3">
+    <div class="atomnum">20</div>
+    <div class="symbol">Ca</div>
+    <div class="name">Calcium</div>
+    <div class="mass">40.078</div>
+    <div class="density">1.55 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 839<sup>o</sup>C</div>
+    <div class="bp">B.P.: 1484<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">21</div>
+    <div class="symbol">Sc</div>
+    <div class="name">Scandium</div>
+    <div class="mass">44.9559</div>
+    <div class="density">2.99 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1539<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2832<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">22</div>
+    <div class="symbol">Ti</div>
+    <div class="name">Titanium</div>
+    <div class="mass">47.867</div>
+    <div class="density">4.54 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1660<sup>o</sup>C</div>
+    <div class="bp">B.P.: 3287<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">23</div>
+    <div class="symbol">V</div>
+    <div class="name">Vanadium</div>
+    <div class="mass">50.9415</div>
+    <div class="density">6.11 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1890<sup>o</sup>C</div>
+    <div class="bp">B.P.: 3380<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">24</div>
+    <div class="symbol">Cr</div>
+    <div class="name">Chromium</div>
+    <div class="mass">51.9961</div>
+    <div class="density">7.19 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1857<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2672<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">25</div>
+    <div class="symbol">Mn</div>
+    <div class="name">Manganese</div>
+    <div class="mass">54.938</div>
+    <div class="density">7.43 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1245<sup>o</sup>C</div>
+    <div class="bp">B.P.: 1962<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">26</div>
+    <div class="symbol">Fe</div>
+    <div class="name">Iron</div>
+    <div class="mass">55.845</div>
+    <div class="density">7.87 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1535<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2750<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">27</div>
+    <div class="symbol">Co</div>
+    <div class="name">Cobalt</div>
+    <div class="mass">58.9332</div>
+    <div class="density">8.9 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1495<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2870<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">28</div>
+    <div class="symbol">Ni</div>
+    <div class="name">Nickel</div>
+    <div class="mass">58.6934</div>
+    <div class="density">8.9 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1453<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2732<sup>o</sup>C</div>
+	<div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">29</div>
+    <div class="symbol">Cu</div>
+    <div class="name">Copper</div>
+    <div class="mass">63.546</div>
+    <div class="density">8.96 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 1083<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2567<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group7">
+    <div class="atomnum">30</div>
+    <div class="symbol">Zn</div>
+    <div class="name">Zinc</div>
+    <div class="mass">65.39</div>
+    <div class="density">7.13 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 420<sup>o</sup>C</div>
+    <div class="bp">B.P.: 907<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group8">
+    <div class="atomnum">31</div>
+    <div class="symbol">Ga</div>
+    <div class="name">Gallium</div>
+    <div class="mass">69.723</div>
+    <div class="density">5.91 g/cm<sup>3</sup></div>
+    <div class="mp">M.P.: 30<sup>o</sup>C</div>
+    <div class="bp">B.P.: 2403<sup>o</sup>C</div>
+    <div class="ol"></div>
+</div>
+
+<div class="group5">
+  <div class="atomnum">32</div>
+  <div class="symbol">Ge</div>
+  <div class="name">Germanium</div>
+  <div class="mass">72.64</div>
+  <div class="density">5.32 g/cm<sup>3</sup></div>
+  <div class="mp">M.P.: 937<sup>o</sup>C</div>
+  <div class="bp">B.P.: 2830<sup>o</sup>C</div>
+  <div class="ol"></div>
+</div>
+
+<div class="group5">
+<div class="atomnum">33</div>
+<div class="symbol">As</div>
+<div class="name">Arsenic</div>
+<div class="mass">74.9216</div>
+<div class="density">5.72 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 81<sup>o</sup>C</div>
+<div class="bp">B.P.: 613<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group1">
+<div class="atomnum">34</div>
+<div class="symbol">Se</div>
+<div class="name">Selenium</div>
+<div class="mass">78.96</div>
+<div class="density">4.79 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 217<sup>o</sup>C</div>
+<div class="bp">B.P.: 685<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group6">
+<div class="atomnum">35</div>
+<div class="symbol">Br</div>
+<div class="name">Bromine</div>
+<div class="mass">79.904</div>
+<div class="density">3.12 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -7<sup>o</sup>C</div>
+<div class="bp">B.P.: 59<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group4">
+<div class="atomnum">36</div>
+<div class="symbol">Kr</div>
+<div class="name">Krypton</div>
+<div class="mass">83.8</div>
+<div class="density">3.75 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -157<sup>o</sup>C</div>
+<div class="bp">B.P.: -153<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~ ROW 5 ~~~~~~~~~~~~~~ -->
+<div class="group2">
+<div class="atomnum">37</div>
+<div class="symbol">Rb</div>
+<div class="name">Rubidium</div>
+<div class="mass">85.4678</div>
+<div class="density">1.63 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 39<sup>o</sup>C</div>
+<div class="bp">B.P.: 688<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group3">
+<div class="atomnum">38</div>
+<div class="symbol">Sr</div>
+<div class="name">Strontium</div>
+<div class="mass">87.62</div>
+<div class="density">2.54 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 769<sup>o</sup>C</div>
+<div class="bp">B.P.: 1384<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">39</div>
+<div class="symbol">Y</div>
+<div class="name">Yttrium</div>
+<div class="mass">88.9059</div>
+<div class="density">4.47 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1523<sup>o</sup>C</div>
+<div class="bp">B.P.: 3337<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">40</div>
+<div class="symbol">Zr</div>
+<div class="name">Zirconium</div>
+<div class="mass">91.224</div>
+<div class="density">6.51 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -157<sup>o</sup>C</div>
+<div class="bp">B.P.: -153<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">41</div>
+<div class="symbol">Nb</div>
+<div class="name">Niobium</div>
+<div class="mass">92.9064</div>
+<div class="density">8.57 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 2468<sup>o</sup>C</div>
+<div class="bp">B.P.: 4927<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">42</div>
+<div class="symbol">Mo</div>
+<div class="name">Molybdenum</div>
+<div class="mass">95.94</div>
+<div class="density">10.22 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 2617<sup>o</sup>C</div>
+<div class="bp">B.P.: 4612<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">43</div>
+<div class="symbol">Tc</div>
+<div class="name">Technetium</div>
+<div class="mass">98</div>
+<div class="density">11.5 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 2200<sup>o</sup>C</div>
+<div class="bp">B.P.: 4877<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">44</div>
+<div class="symbol">Ru</div>
+<div class="name">Ruthenium</div>
+<div class="mass">101.07</div>
+<div class="density">12.37 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 2250<sup>o</sup>C</div>
+<div class="bp">B.P.: 3900<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">45</div>
+<div class="symbol">Rh</div>
+<div class="name">Rhodium</div>
+<div class="mass">102.9055</div>
+<div class="density">12.41 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1966<sup>o</sup>C</div>
+<div class="bp">B.P.: 3727<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">46</div>
+<div class="symbol">Pd</div>
+<div class="name">Palladium</div>
+<div class="mass">106.42</div>
+<div class="density">12.02 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1552<sup>o</sup>C</div>
+<div class="bp">B.P.: 2927<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+<!--                     -->
+<div class="group7">
+<div class="atomnum">47</div>
+<div class="symbol">Ag</div>
+<div class="name">Silver</div>
+<div class="mass">107.8682</div>
+<div class="density">10.5 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 962<sup>o</sup>C</div>
+<div class="bp">B.P.: 2212<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">48</div>
+<div class="symbol">Cd</div>
+<div class="name">Cadmium</div>
+<div class="mass">112.411</div>
+<div class="density">8.65 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 321<sup>o</sup>C</div>
+<div class="bp">B.P.: 765<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">49</div>
+<div class="symbol">In</div>
+<div class="name">Indium</div>
+<div class="mass">114.818</div>
+<div class="density">7.31 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 157<sup>o</sup>C</div>
+<div class="bp">B.P.: 2000<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">50</div>
+<div class="symbol">Sn</div>
+<div class="name">Tin</div>
+<div class="mass">118.71</div>
+<div class="density">7.13 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 232<sup>o</sup>C</div>
+<div class="bp">B.P.: 2270<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group5">
+<div class="atomnum">51</div>
+<div class="symbol">Sb</div>
+<div class="name">Antimony</div>
+<div class="mass">121.76</div>
+<div class="density">6.68 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 630<sup>o</sup>C</div>
+<div class="bp">B.P.: 1750<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group5">
+<div class="atomnum">52</div>
+<div class="symbol">Te</div>
+<div class="name">Tellurium</div>
+<div class="mass">127.6</div>
+<div class="density">6.24 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 449<sup>o</sup>C</div>
+<div class="bp">B.P.: 990<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group6">
+<div class="atomnum">53</div>
+<div class="symbol">I</div>
+<div class="name">Iodine</div>
+<div class="mass">126.9045</div>
+<div class="density">4.93 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 114<sup>o</sup>C</div>
+<div class="bp">B.P.: 184<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group4">
+<div class="atomnum">54</div>
+<div class="symbol">Xe</div>
+<div class="name">Xenon</div>
+<div class="mass">131.294</div>
+<div class="density">5.9 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -112<sup>o</sup>C</div>
+<div class="bp">B.P.: -108<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~ ROW 6 ~~~~~~~~~~~~~~ -->
+<div class="group2">
+<div class="atomnum">55</div>
+<div class="symbol">Cs</div>
+<div class="name">Cesium</div>
+<div class="mass">132.9055</div>
+<div class="density">1.87 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 29<sup>o</sup>C</div>
+<div class="bp">B.P.: 678<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group3">
+<div class="atomnum">56</div>
+<div class="symbol">Ba</div>
+<div class="name">Barium</div>
+<div class="mass">137.327</div>
+<div class="density">3.59 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 725<sup>o</sup>C</div>
+<div class="bp">B.P.: 1140<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">57-71</div>
+<div class="symbol">La-Lu</div>
+<div class="name">Lanthanoids</div>
+<div class="mass"></div>
+<div class="density"></div>
+<div class="mp"></div>
+<div class="bp"></div>
+<div class="ol"></div>
+</div>
+
+
+
+<div class="group7">
+<div class="atomnum">72</div>
+<div class="symbol">Hf</div>
+<div class="name">Hafnium</div>
+<div class="mass">178.49</div>
+<div class="density">13.31 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1250<sup>o</sup>C</div>
+<div class="bp">B.P.: 5400<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+<div class="group7">
+<div class="atomnum">73</div>
+<div class="symbol">Ta</div>
+<div class="name">Tantalum</div>
+<div class="mass">180.9479</div>
+<div class="density">16.65 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 2996<sup>o</sup>C</div>
+<div class="bp">B.P.: 5425<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">74</div>
+<div class="symbol">W</div>
+<div class="name">Tungsten</div>
+<div class="mass">183.84</div>
+<div class="density">19.35 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 3410<sup>o</sup>C</div>
+<div class="bp">B.P.: 5660<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">75</div>
+<div class="symbol">Re</div>
+<div class="name">Rhenium</div>
+<div class="mass">186.207</div>
+<div class="density">21.04 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 3180<sup>o</sup>C</div>
+<div class="bp">B.P.: 5624<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">76</div>
+<div class="symbol">Os</div>
+<div class="name">Osmium</div>
+<div class="mass">190.23</div>
+<div class="density">22.6 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 3045<sup>o</sup>C</div>
+<div class="bp">B.P.: 5027<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">77</div>
+<div class="symbol">Ir</div>
+<div class="name">Iridium</div>
+<div class="mass">192.217</div>
+<div class="density">22.4 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 2410<sup>o</sup>C</div>
+<div class="bp">B.P.: 4527<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">78</div>
+<div class="symbol">Pt</div>
+<div class="name">Platinum</div>
+<div class="mass">195.078</div>
+<div class="density">21.45 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1772<sup>o</sup>C</div>
+<div class="bp">B.P.: 3827<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">79</div>
+<div class="symbol">Au</div>
+<div class="name">Gold</div>
+<div class="mass">196.9665</div>
+<div class="density">19.32 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1064<sup>o</sup>C</div>
+<div class="bp">B.P.: 2807<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">80</div>
+<div class="symbol">Hg</div>
+<div class="name">Mercury</div>
+<div class="mass">200.59</div>
+<div class="density">13.55 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -39<sup>o</sup>C</div>
+<div class="bp">B.P.: 357<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">81</div>
+<div class="symbol">Tl</div>
+<div class="name">Thallium</div>
+<div class="mass">204.3833</div>
+<div class="density">11.84 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 303<sup>o</sup>C</div>
+<div class="bp">B.P.: 1457<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">82</div>
+<div class="symbol">Pb</div>
+<div class="name">Lead</div>
+<div class="mass">207.2</div>
+<div class="density">11.35 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 327<sup>o</sup>C</div>
+<div class="bp">B.P.: 1740<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">83</div>
+<div class="symbol">Bi</div>
+<div class="name">Bismuth</div>
+<div class="mass">208.9804</div>
+<div class="density">9.75 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 271<sup>o</sup>C</div>
+<div class="bp">B.P.: 1560<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group5">
+<div class="atomnum">84</div>
+<div class="symbol">Po</div>
+<div class="name">Polonium</div>
+<div class="mass">209</div>
+<div class="density">9.3 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 254<sup>o</sup>C</div>
+<div class="bp">B.P.: 962<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group6">
+<div class="atomnum">85</div>
+<div class="symbol">At</div>
+<div class="name">Astatine</div>
+<div class="mass">210</div>
+<div class="density">*</div>
+<div class="mp">M.P.: 302<sup>o</sup>C</div>
+<div class="bp">B.P.: 337<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group4">
+<div class="atomnum">86</div>
+<div class="symbol">Rn</div>
+<div class="name">Radon</div>
+<div class="mass">222</div>
+<div class="density">9.73 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: -71<sup>o</sup>C</div>
+<div class="bp">B.P.: -62<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~ ROW 7 ~~~~~~~~~~~~~~ -->
+
+
+<div class="group2">
+<div class="atomnum">87</div>
+<div class="symbol">Fr</div>
+<div class="name">Francium</div>
+<div class="mass">223</div>
+<div class="density">*</div>
+<div class="mp">M.P.: 27<sup>o</sup>C</div>
+<div class="bp">B.P.: 677<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group3">
+<div class="atomnum">88</div>
+<div class="symbol">Ra</div>
+<div class="name">Radium</div>
+<div class="mass">226</div>
+<div class="density">5.5 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 700<sup>o</sup>C</div>
+<div class="bp">B.P.: 1737<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+<!-- ------------------------- -->
+
+
+<div class="group10">
+<div class="atomnum">89-103</div>
+<div class="symbol">Ac-Lr</div>
+<div class="name">Actinoids</div>
+<div class="mass"></div>
+<div class="density"></div>
+<div class="mp"></div>
+<div class="bp"></div>
+<div class="ol"></div>
+</div>
+
+
+<!-- ------------------------- -->
+
+
+<div class="group7">
+<div class="atomnum">104</div>
+<div class="symbol">Rf</div>
+<div class="name long">Rutherfordium</div>
+<div class="mass">261</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">105</div>
+<div class="symbol">Db</div>
+<div class="name">Dubnium</div>
+<div class="mass">262</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">106</div>
+<div class="symbol">Sg</div>
+<div class="name long">Seaborgium</div>
+<div class="mass">266</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">107</div>
+<div class="symbol">Bh</div>
+<div class="name">Bohrium</div>
+<div class="mass">264</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">108</div>
+<div class="symbol">Hs</div>
+<div class="name">Hassium</div>
+<div class="mass">277</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+<!-- the strange ones -->
+<div class="group7">
+<div class="atomnum">109</div>
+<div class="symbol">Mt</div>
+<div class="name long">Meitnerium</div>
+<div class="mass">266</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">110</div>
+<div class="symbol">Uun</div>
+<div class="name long">Ununnilium</div>
+<div class="mass">269</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">111</div>
+<div class="symbol">Uuu</div>
+<div class="name long">Unununium</div>
+<div class="mass">272</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group7">
+<div class="atomnum">112</div>
+<div class="symbol">Uub</div>
+<div class="name long">Ununbium</div>
+<div class="mass">277</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">113</div>
+<div class="symbol">Uut</div>
+<div class="name long">Ununtrium</div>
+<div class="mass">*</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">114</div>
+<div class="symbol">Uuq</div>
+<div class="name long">Ununquadium</div>
+<div class="mass">285</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">115</div>
+<div class="symbol">Uup</div>
+<div class="name long">Ununpentium</div>
+<div class="mass">*</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group8">
+<div class="atomnum">116</div>
+<div class="symbol">Uuh</div>
+<div class="name long">Ununhexium</div>
+<div class="mass">289</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group6">
+<div class="atomnum">117</div>
+<div class="symbol">Uus</div>
+<div class="name long">Ununseptium</div>
+<div class="mass">*</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group4">
+<div class="atomnum">118</div>
+<div class="symbol">Uuo</div>
+<div class="name long">Ununoctium</div>
+<div class="mass">*</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+
+
+<!-- ------------- -->
+
+
+
+
+
+
+
+<!--gap4 = 3 spaces-->
+<div class="group0 g4"><div class="blank">-</div></div>
+<div class="group0 g4"><div class="blank">-</div></div>
+<div class="group0 g4"><div class="blank">-</div></div>
+<!-- <div class="group0 g4"><div class="blank">-</div></div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------>
+<div class="group9">
+<div class="atomnum">57</div>
+<div class="symbol">La</div>
+<div class="name long">Lanthanium</div>
+<div class="mass">138.9055</div>
+<div class="density">6.15 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 920<sup>o</sup>C</div>
+<div class="bp">B.P.: 3469<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">58</div>
+<div class="symbol">Ce</div>
+<div class="name">Cerium</div>
+<div class="mass">140.116</div>
+<div class="density">6.77 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 795<sup>o</sup>C</div>
+<div class="bp">B.P.: 3257<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">59</div>
+<div class="symbol">Pr</div>
+<div class="name long">Praseodymium</div>
+<div class="mass">140.9077</div>
+<div class="density">6.77 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 935<sup>o</sup>C</div>
+<div class="bp">B.P.: 3127<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">60</div>
+<div class="symbol">Nd</div>
+<div class="name long">Neodymium</div>
+<div class="mass">144.24</div>
+<div class="density">7.01 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1010<sup>o</sup>C</div>
+<div class="bp">B.P.: 3127<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">61</div>
+<div class="symbol">Pm</div>
+<div class="name long">Promethium</div>
+<div class="mass">145</div>
+<div class="density">7.3 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1100<sup>o</sup>C</div>
+<div class="bp">B.P.: 3000<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">62</div>
+<div class="symbol">Sm</div>
+<div class="name long">Samarium</div>
+<div class="mass">150.36</div>
+<div class="density">7.52 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1072<sup>o</sup>C</div>
+<div class="bp">B.P.: 1900<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">63</div>
+<div class="symbol">Eu</div>
+<div class="name long">Europium</div>
+<div class="mass">151.964</div>
+<div class="density">5.24 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 822<sup>o</sup>C</div>
+<div class="bp">B.P.: 1597<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">64</div>
+<div class="symbol">Gd</div>
+<div class="name long">Gadolinium</div>
+<div class="mass">157.25</div>
+<div class="density">7.9 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1311<sup>o</sup>C</div>
+<div class="bp">B.P.: 3233<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">65</div>
+<div class="symbol">Tb</div>
+<div class="name">Terbium</div>
+<div class="mass">158.9253</div>
+<div class="density">8.23 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1360<sup>o</sup>C</div>
+<div class="bp">B.P.: 3041<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">66</div>
+<div class="symbol">Dy</div>
+<div class="name long">Dysprosium</div>
+<div class="mass">162.5</div>
+<div class="density">8.55 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1412<sup>o</sup>C</div>
+<div class="bp">B.P.: 2562<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">67</div>
+<div class="symbol">Ho</div>
+<div class="name">Holmium</div>
+<div class="mass">164.9303</div>
+<div class="density">8.8 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1470<sup>o</sup>C</div>
+<div class="bp">B.P.: 2720<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">68</div>
+<div class="symbol">Er</div>
+<div class="name">Erbium</div>
+<div class="mass">167.259</div>
+<div class="density">9.07 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1522<sup>o</sup>C</div>
+<div class="bp">B.P.: 2510<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">69</div>
+<div class="symbol">Tm</div>
+<div class="name">Thulium</div>
+<div class="mass">168.9342</div>
+<div class="density">9.32 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1545<sup>o</sup>C</div>
+<div class="bp">B.P.: 1727<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">70</div>
+<div class="symbol">Yb</div>
+<div class="name long">Ytterbium</div>
+<div class="mass">173.04</div>
+<div class="density">6.9 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 824<sup>o</sup>C</div>
+<div class="bp">B.P.: 1466<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group9">
+<div class="atomnum">71</div>
+<div class="symbol">Lu</div>
+<div class="name long">Lutenium</div>
+<div class="mass">174.967</div>
+<div class="density">9.84 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1656<sup>o</sup>C</div>
+<div class="bp">B.P.: 3315<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<!------------------>
+
+
+
+
+<!-- ~~~~~~~~~~~~~ ROW 8 ~~~~~~~~~~~~~~ -->
+
+<!--gap5 = 3 spaces-->
+<div class="group0 g5"><div class="blank">-</div></div>
+<div class="group0 g5"><div class="blank">-</div></div>
+<div class="group0 g5"><div class="blank">-</div></div>
+
+
+
+<div class="group10">
+<div class="atomnum">89</div>
+<div class="symbol">Ac</div>
+<div class="name long">Actinium</div>
+<div class="mass">227</div>
+<div class="density">10.07 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1050<sup>o</sup>C</div>
+<div class="bp">B.P.: 3200<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+
+
+<div class="group10">
+<div class="atomnum">90</div>
+<div class="symbol">Th</div>
+<div class="name">Thorium</div>
+<div class="mass">232.0381</div>
+<div class="density">11.72 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1750<sup>o</sup>C</div>
+<div class="bp">B.P.: 4790<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+<div class="group10">
+<div class="atomnum">91</div>
+<div class="symbol">Pa</div>
+<div class="name long">Protactinium</div>
+<div class="mass">231.0359</div>
+<div class="density">15.4 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1568<sup>o</sup>C</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">92</div>
+<div class="symbol">U</div>
+<div class="name">Uranium</div>
+<div class="mass">2038.0289</div>
+<div class="density">18.95 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1132<sup>o</sup>C</div>
+<div class="bp">B.P.: 3818<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">93</div>
+<div class="symbol">Np</div>
+<div class="name long">Neptunium</div>
+<div class="mass">237</div>
+<div class="density">20.2 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 640<sup>o</sup>C</div>
+<div class="bp">B.P.: 3902<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">94</div>
+<div class="symbol">Pu</div>
+<div class="name long">Plutonium</div>
+<div class="mass">244</div>
+<div class="density">19.84 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 640<sup>o</sup>C</div>
+<div class="bp">B.P.: 3235<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">95</div>
+<div class="symbol">Am</div>
+<div class="name long">Americium</div>
+<div class="mass">243</div>
+<div class="density">13.67 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 994<sup>o</sup>C</div>
+<div class="bp">B.P.: 2607<sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">96</div>
+<div class="symbol">Cm</div>
+<div class="name">Curium</div>
+<div class="mass">247</div>
+<div class="density">13.5 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 1340<sup>o</sup>C</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">97</div>
+<div class="symbol">Bk</div>
+<div class="name long">Berkelium</div>
+<div class="mass">247</div>
+<div class="density">14.78 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 986<sup>o</sup>C</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">98</div>
+<div class="symbol">Cf</div>
+<div class="name long">Californium</div>
+<div class="mass">251</div>
+<div class="density">15.1 g/cm<sup>3</sup></div>
+<div class="mp">M.P.: 900<sup>o</sup>C</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">99</div>
+<div class="symbol">Es</div>
+<div class="name long">Einsteinium</div>
+<div class="mass">252</div>
+<div class="density">*</div>
+<div class="mp">M.P.: 860<sup>o</sup>C</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">100</div>
+<div class="symbol">Fm</div>
+<div class="name">Fermium</div>
+<div class="mass">257</div>
+<div class="density">*</div>
+<div class="mp">M.P.: 1527<sup>o</sup>C</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">101</div>
+<div class="symbol">Md</div>
+<div class="name long">Mendelevium</div>
+<div class="mass">258</div>
+<div class="density">*</div>
+<div class="mp">*</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">102</div>
+<div class="symbol">No</div>
+<div class="name long">Nobelium</div>
+<div class="mass">259</div>
+<div class="density">*</div>
+<div class="mp">M.P.: 827<sup>o</sup>C</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum">103</div>
+<div class="symbol">Lr</div>
+<div class="name long">Lawrencium</div>
+<div class="mass">262</div>
+<div class="density">*</div>
+<div class="mp">M.P.: 1627<sup>o</sup>C</div>
+<div class="bp">*</div>
+<div class="ol"></div>
+</div>
+
+
+
+
+
+
+
+<!-- ~~~~~~~~~~~~~ ROW 9 ~~~~~~~~~~~~~~ -->
+
+<!--gap5 = 4 spaces-->
+<!-- <div class="group0 g5"><div class="blank">-</div></div> -->
+
+
+<!--
+<div class="group10">
+<div class="atomnum"></div>
+<div class="symbol"></div>
+<div class="name"></div>
+<div class="mass"></div>
+<div class="density"> g/cm<sup>3</sup></div>
+<div class="mp">M.P.: <sup>o</sup>C</div>
+<div class="bp">B.P.: <sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+
+<div class="group10">
+<div class="atomnum"></div>
+<div class="symbol"></div>
+<div class="name"></div>
+<div class="mass"></div>
+<div class="density"> g/cm<sup>3</sup></div>
+<div class="mp">M.P.: <sup>o</sup>C</div>
+<div class="bp">B.P.: <sup>o</sup>C</div>
+<div class="ol"></div>
+</div>
+-->
+
+
+
+         <!--    TABLE END    -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ||||||||||||||||||||||||| -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+</div>
+<footer>
+  <div>   </div>
+  <div>   Douglas McNellis  </div>
+  <div>       June 2016  </div>
+  <div>     </div>
+	<!-- <a href="https://www.webelements.com/zirconium/">Link 1</a>
+	<a href="http://www.science.co.il/PTelements.asp">Link 2</a>
+    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Link 3</a> -->
+</footer>
+
+</body>
+
+
+
+
+
+<!-------------------------------------------------------------- -->
+<!-------------------------------------------------------------- -->
+<!-------------------------------------------------------------- -->
+<!-------------------------------------------------------------- -->
+<!-------------------------------------------------------------- -->
+<!-------------------------------------------------------------- -->
+
+
+
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-image:url(img/bg01.png);
+  background-repeat: repeat;
+}
+
+
+div{
+	/*margin:0 0 0 0;
+	padding:0 0 0 0;
+	line-height:1;*/
+	line-height:1.0;
+	margin:2px 0 2px 0;
+}
+
+
+
+
+
+
+div.key div, div.key p{
+	display:inline-block;
+}
+
+div.key{
+  background-color: hsla(0,0%,0%,1.0);
+  position:relative;
+	/*width:480px;*/
+	width:auto;
+	top:48px;
+	left:0px;
+	font-size:3rem;
+	color:white;
+  line-height: 1;
+	/*text-emphasis:circle;*/
+	/*border-color:rgba(166,161,50,1.00);*/
+	border-color:hsla(330, 70%, 70%, 0.5);
+	border-style:solid;
+	border-width:6px;
+  border-right-style: none;
+  border-left-style: none;
+	/*border-radius:40px;*/
+	padding:10px;
+  padding-bottom:10px;
+	/*background-size:cover;*/
+  align-content:flex-start;
+	justify-content:flex-start;
+	text-align:center;
+
+
+
+
+	/*background-color:#E4E4B7;*/
+	/*display:flex;
+	position:absolute;
+	background-color:#E4E4B7;
+	border-width:3px;
+	border-radius:45px;
+	left:300px;
+	top:120px;
+	padding:3px;
+
+	align-content:flex-start;
+	justify-content:flex-start;
+	text-align:center;*/
+}
+
+div.key p,div.key div{
+	font-size:14px;
+	color:rgba(100,70,35,1.00);
+}
+div.key div{
+	/*font-size:12px;*/
+	color:rgba(255,255,255,1.00);
+	height:auto;
+	padding:8px;
+}
+
+
+
+
+
+
+div.wrapper{
+	width:1820px;
+	margin-right:auto;
+	margin-left:auto;
+}
+div.title{
+  display:block;
+	position:relative;
+	/*width:480px;*/
+  /*width:42%;*/
+  width:100000;
+	top:-80px;
+  z-index: -1;
+	/*font-size:30pt;*/
+  color:white;
+  /*color:hsla(290,85%,90%,1);*/
+	/*text-emphasis:circle;*/
+	/*border-color:rgba(166,161,50,1.00);*/
+	border-color:hsla(20,90%,50%,0.33);
+	border-style:solid;
+	border-width:6px;
+	border-radius:55px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  /*padding:15px 20%;*/
+  padding:8px;
+
+	background-color:hsla(330,100%,38%,0.70);
+  /*margin-left: 100%;
+  margin-right: 100%;*/
+	/*background-size:cover;*/
+  font-size: 28pt;
+  font-weight: bold;
+  padding-bottom: 72px;
+  padding-left: 30%;
+}
+
+
+
+
+/*block below: originally used for a backgound image bouded with rounded borders... too fancy*/
+/*div.title::after{
+	content: "";
+  -webkit-border-radius: 44px;
+  -moz-border-radius: 44px;
+  border-radius: 44px;
+  border: none;
+	background-image:url(img/ASTROWALKABOUT.png);
+	border-image:round;
+  opacity: 0.42;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size:4000%;
+  background-position:center right;
+}*/
+
+
+
+
+
+
+
+#parent {
+	display: flex;
+	flex-wrap: wrap;
+	position:relative;
+  bottom:56px;
+  /*bottom:-164px;*/
+}
+
+[class*=group]{
+	height: 120px;
+	background: red;
+    /*flex: 1;*/
+	/*flex:1 0 ;*/
+	flex:0 1 ;
+	/*min-width: 5.555555555555556%;*/
+	min-width: calc(100% / 18);
+	/*border: 5px solid white;*/
+  /*border:thin solid rgba(0,0,0,0.35);*/
+	border:1px solid rgba(0,0,0,0.15);
+	border-radius:10px;
+	border-top-width:3px;
+	/*border-top-color:rgba(255,81,180,0.43);*/
+  border-top-color:rgba(255,255,200,0.42);
+  /*border-top-color:hsla(20, 5%, 20%, 0.2);*/
+
+	/*border-left-style:hidden;
+	border-right-style:hidden;*/
+	border-bottom-width:thin;
+	border-bottom-color:rgba(111,81,64,0.43);
+	border-bottom-style:solid;
+	/*margin-bottom:4px;
+	margin-top:2px;*/
+	/*margin-bottom:2px;
+	margin-top:2px;*/
+
+	position: relative;
+
+	align-content:flex-start;
+	justify-content:flex-start;
+	text-align:center;
+
+}
+.group0{
+	visibility:hidden;
+}
+footer{
+	display:block;
+	background-color:rgba(0, 0, 0, .40);
+  border-top: 10px solid black;
+  height:60px;
+}
+footer div{
+  font-size: 16pt;
+  background-color: hsla(190, 100%, 10%, 0.7);
+  padding-left:42px;
+  /*color:hsla(77,100%,85%,1);*/
+  /*color:rgba(0,0,0,0.6);*/
+  color:hsla(80,40%,85%,0.5);
+  font-weight: 1px;
+}
+footer div:nth-child(2){
+
+  background-color: hsla(344, 100%, 10%, 0.7);
+
+
+}
+
+
+
+
+
+/*/¯¯¯¯\___\_:                  :_/___/¯¯¯¯\*/
+/*---/---===\|==== START of ====|/===---\---*/
+/*   \----===\== COLOR GROUPS ==/===----/   */
+/*    \    --=|\=_____________=/|=--   /    */
+/*||||||||||||||||||||||||||||||||||||||||||*/
+
+.group1{   /* Other NonMetals*/
+  background-color:hsla(0,50%,60%,0.68);}
+.group2{  /* Alkali Metals*/
+  background-color:hsla(20,50%,60%,0.68);}
+.group3{  /* Alkaline Earth Metals*/
+  background-color:hsla(40,50%,60%,0.68);}
+.group4{  /* Noble Gasses - indigo*/
+  background-color:hsla(280,50%,60%,0.68);}
+.group5{  /* Metalloids */
+  background-color:hsla(200,50%,60%,0.68);}
+.group6{  /* Halogens */
+  background-color:hsla(240,50%,60%,0.68);}
+.group7{  /* Transition Metals */
+  background-color:hsla(50,50%,60%,0.68);}
+.group8{  /* Post-Transition Metals */
+  background-color:hsla(180,15%,60%,0.68);}
+.group9{  /* Lanthanoids */
+  background-color:hsla(90,50%,60%,0.68);}
+.group10{  /* Actinoids */
+  background-color:hsla(150,50%,60%,0.68);}
+.group{ /* DEFAULT - Grey */
+  background-color:hsla(0,50%,60%,0.68);}
+
+/*||||||||||||||||||||||||||||||||||||||||*/
+/*/¯¯¯¯\___\_:                :_/___/¯¯¯¯\*/
+/*-------===\|==== END of ====|/===-------*/
+/*    ----===\= COLOR GROUPS =/===----    */
+/*        --=|\______________/|=--        */
+
+
+
+
+div.atomnum{
+	font-size:0.8em;
+}
+div.symbol{
+	font-size:2em;
+  font-weight: bold;
+}
+
+div.name{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	border:thin solid rgba(0,0,0,0.35);
+	border-radius:10px;
+	border-top-style:hidden;
+	border-left-style:hidden;
+	border-right-style:hidden;
+	border-bottom-width:thin;
+	border-bottom-color:rgba(111,81,64,0.43);
+	border-bottom-style:solid;
+	margin-bottom:4px;
+	margin-top:2px;
+  font-weight: bolder;
+  color: hsla(360,0%,0%,0.7);
+}
+
+
+
+div.mass{
+	font-size:1rem;
+}
+div.density, div.mp, div.bp{
+	font-size:1rem;
+}
+
+div.ol{ /*  OL = Overlay  */
+	position:absolute;
+	border:thin solid rgba(255,255,255,0.350);
+	border-radius:7px;
+	top:0;
+	left:0;
+	width:100%;
+	height:58px;
+	background-color:rgba(255,255,255,0.2);
+  border-top-color:rgba(255,255,255,0.35);;
+  /*border-top-color:rgba(0,0,0,0.5);*/
+}
+div.ol{
+	z-index:0;
+}
+div.atomnum, div.symbol, div.name{
+	position:relative;
+	z-index:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------========= START of Media Queries =========-------*/
+@media (max-width: 1400px) {
+
+  [class~=group] > div {
+	   min-width: 8%;
+  }
+  
+/*
+  .group0{
+	min-width: 4%;
+	flex-shrink:2;
+  }
+*/
+  /*----------------*/
+
+  /*UNCOMMENT BELOW TO CRAPPILY FIX WONKY ALIGNMENTS*/
+  /*      ( and comment out the above blocks )      */
+
+  [class~=group]{
+    flex-grow: 2;
+    flex-shrink: 0;
+  }
+	
+	
+  /*---------------*/
+
+
+  div.g2,div.g3{
+    display: none;
+    width:auto;
+    flex-grow: 0;
+    flex-shrink: 2;
+  }
+  div.g1:nth-child(1),div.g1:nth-child(2),div.g1:nth-child(3),div.g1:nth-child(4),div.g1:nth-child(5),{
+    min-width: 50%;
+  }
+  .key{
+    background-color: black;
+  }
+  
+
+  /*div#parent > div {
+  	min-width: 7%;
+    }*/
+    /*[class~=group] > div {*/
+  /*.[class~="group"]{
+    min-width: 7%;
+  }*/
+  /*.group0{
+  	min-width: 4%;
+  	flex-shrink:2;
+  }*/
+  /*display:none;
+  visibility:hidden;*/
+  /*display:block;*/
+.long{
+	font-size:1rem;
+	line-height:1.4rem;
+}
+
+
+
+}
+
+
+
+
+@media (max-width: 1300px) {
+  /*.name{
+    font-size: 0.6rem;
+  }*/
+  iv.g1,div.g4,div.g5{
+    display: none;
+  }
+  div#parent > div {
+     min-width: 10%;
+	   flex-grow:2;
+  }
+  .group0{
+	min-width:7.5%;
+	flex-shrink:4;
+  }
+  .group0{
+	display:none;
+	visibility:hidden;
+  }
+  div.g1:nth-child(even){
+	  visibility:hidden;
+	  display:flex;
+  }
+  div.title{
+    top:-120px;
+  	/*position:fixed;*/
+    /*visibility: hidden;*/
+  }
+}
+
+
+
+
+@media (max-width: 888px) {
+  div#parent > div {
+    min-width: 33.33333333333%;
+	flex-grow:4;
+  }
+  .group0{
+	min-width:min-width:16.66666666665%;
+  }
+  .group0{
+	display:none;
+	visibility:hidden;
+  order: 9999999;
+  }
+  div.g1:nth-child(1){
+	  visibility:hidden;
+	  display:inline-block;
+  }
+  div.title{
+  	/*position:fixed;*/
+    visibility: hidden;
+  }
+  /*[class~=group] > div {
+	   min-width: 7%;
+  }*/
+}
+
+
+
+
+@media (max-width: 700px) {
+  div#parent > div {
+    min-width: 50%;
+  }
+  .group0{
+	min-width:25%;
+	display:none;
+	visibility:hidden;
+  order: 9999999;
+  }
+}
+
+
+
+
+</style>
+
+</html>
